@@ -1,0 +1,30 @@
+{
+  "name": "molarmass.js",
+  "version": "0.0.1",
+  "description": "Get the molar mass of a compound in g/mol",
+  "main": "molarmass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osofem/molarmass.git"
+  },
+  "keywords": [
+    "molar",
+    "mass",
+    "mole",
+    "g/mol",
+    "gram/mole",
+    "mass",
+    "molecule",
+    "chemistry",
+    "element"
+  ],
+  "author": "Oso Oluwafemi <osofem87@gmail.com> (https://github.com/osofem)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osofem/molarmass/issues"
+  },
+  "homepage": "https://github.com/osofem/molarmass#readme"
+}
