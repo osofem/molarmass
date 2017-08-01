@@ -37,3 +37,5 @@ class MolarMass extends Molecules{
 		return elements[el];
 	}
 };
+
+if(typeof module != 'undefined') module.exports = MolarMass;
