@@ -2,7 +2,11 @@
 *	Written by Oso Oluwafemi osofem87@gmail.com
 *	Dependent on Molecules
 */
-if(typeof module != 'undefined'){var Molecules = require('molecules.js');}
+
+//Including Molecules.js for node.js
+if(typeof module != 'undefined')
+	Molecules = require('molecules.js');
+
 class MolarMass extends Molecules{
 	constructor(){
 		super();
