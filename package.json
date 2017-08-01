@@ -1,6 +1,6 @@
 {
   "name": "molarmass.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the molar mass of a compound in g/mol",
   "main": "molarmass.js",
   "scripts": {
