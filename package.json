@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/osofem/molarmass/issues"
   },
+  "dependencies": {
+    "molecules.js": "^0.0.2"
+  },
   "homepage": "https://github.com/osofem/molarmass#readme"
 }
