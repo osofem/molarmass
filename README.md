@@ -1,4 +1,4 @@
-# molarmass
+# molarmass.js
 Get the molar mass of a compound in g/mol
 
 ### Install
