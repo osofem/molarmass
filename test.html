@@ -1,0 +1,12 @@
+<script src="https://cdn.rawgit.com/osofem/assert.js/v0.0-beta0.3/assert.js"></script>
+<script src="../molecules/molecules.js"></script>
+<script src="molarmass.js"></script>
+<script>
+let mm = new MolarMass();
+assertEqual(mm.getMolarMass("H2O"), 18.02);
+assertEqual(mm.getMolarMass("NaCl"), 58.44);
+assertEqual(mm.getMolarMass("CaSO4"), 136.14);
+assertEqual(mm.getMolarMass("Al2(SO4)3"), 342.15);
+assertEqual(mm.getMolarMass("CH3COOH"), 60.05);
+assertEqual(mm.getMolarMass("K2Cr2O7"), 294.18);
+</script>
