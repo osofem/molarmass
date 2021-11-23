@@ -1,10 +1,10 @@
 {
   "name": "molarmass.js",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Get the molar mass of a compound in g/mol",
-  "main": "molarmass.js",
+  "main": "dist/molarmass.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "(tsc && mocha)"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,9 @@
   "dependencies": {
     "molecules.js": "^0.0.2"
   },
-  "homepage": "https://github.com/osofem/molarmass#readme"
+  "homepage": "https://github.com/osofem/molarmass#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
 }
