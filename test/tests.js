@@ -32,9 +32,10 @@ describe('Molar Mass Test', ()=>{
     });
 
 
-   /* it('Compounds starting with numbers', ()=>{
-        //assert.equal(mm.getMolarMass("6NaHCO3"), 6*84.0066);
-        //assert.equal(mm.getMolarMass("2Na3PO4"), 2*163.9406);
-    });*/
+   it('Compounds starting with numbers', ()=>{
+        assert.equal(mm.getMolarMass("6NaHCO3"), 504.04);
+        assert.equal(mm.getMolarMass("2Na3PO4"), 327.88);
+    });
+
 });
 
